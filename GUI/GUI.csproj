@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A7B20BA0-0167-4AA2-A1BA-2CFFA2F2CF95}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseBackButtonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseBackButtonForm.Designer.cs">
+      <DependentUpon>BaseBackButtonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChatForm.Designer.cs">
+      <DependentUpon>ChatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsManagement.cs" />
+    <Compile Include="GameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForm.Designer.cs">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameFormRemote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameFormRemote.Designer.cs">
+      <DependentUpon>GameFormRemote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameFormLocal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameFormLocal.Designer.cs">
+      <DependentUpon>GameFormLocal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerNameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayerNameForm.Designer.cs">
+      <DependentUpon>PlayerNameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HostGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HostGameForm.Designer.cs">
+      <DependentUpon>HostGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenuForm.Designer.cs">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameInfoOfflineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameInfoOfflineForm.Designer.cs">
+      <DependentUpon>GameInfoOfflineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewRoundForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewRoundForm.Designer.cs">
+      <DependentUpon>NewRoundForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayOnlineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayOnlineForm.Designer.cs">
+      <DependentUpon>PlayOnlineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SlotButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="BaseBackButtonForm.resx">
+      <DependentUpon>BaseBackButtonForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChatForm.resx">
+      <DependentUpon>ChatForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameFormLocal.resx">
+      <DependentUpon>GameFormLocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameFormRemote.resx">
+      <DependentUpon>GameFormRemote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayerNameForm.resx">
+      <DependentUpon>PlayerNameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HostGameForm.resx">
+      <DependentUpon>HostGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuForm.resx">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameInfoOfflineForm.resx">
+      <DependentUpon>GameInfoOfflineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewRoundForm.resx">
+      <DependentUpon>NewRoundForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayOnlineForm.resx">
+      <DependentUpon>PlayOnlineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GameAPI\GameAPI.csproj">
+      <Project>{d04730a9-cf2e-41fc-82d8-aa0d6665b0f3}</Project>
+      <Name>GameAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameLogic\GameLogic.csproj">
+      <Project>{238223c5-1744-49d3-9b02-0aa33def8709}</Project>
+      <Name>GameLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlackKingPressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlackKingUnpressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlackManPressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlackManUnpressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteKingPressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteKingUnpressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteManPressed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteManUnpressed.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

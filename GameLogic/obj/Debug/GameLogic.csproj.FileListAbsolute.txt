@@ -1,0 +1,7 @@
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameLogic\bin\Debug\GameLogic.dll.config
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameLogic\bin\Debug\GameLogic.dll
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameLogic\bin\Debug\GameLogic.pdb
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameLogic\obj\Debug\GameLogic.csprojAssemblyReference.cache
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameLogic\obj\Debug\GameLogic.csproj.CoreCompileInputs.cache
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameLogic\obj\Debug\GameLogic.dll
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameLogic\obj\Debug\GameLogic.pdb

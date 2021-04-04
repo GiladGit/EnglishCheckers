@@ -1,0 +1,11 @@
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameAPI\bin\Debug\GameAPI.dll.config
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameAPI\bin\Debug\GameAPI.dll
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameAPI\bin\Debug\GameAPI.pdb
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameAPI\bin\Debug\GameLogic.dll
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameAPI\bin\Debug\GameLogic.pdb
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameAPI\bin\Debug\GameLogic.dll.config
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameAPI\obj\Debug\GameAPI.csprojAssemblyReference.cache
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameAPI\obj\Debug\GameAPI.csproj.CoreCompileInputs.cache
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameAPI\obj\Debug\GameAPI.csproj.CopyComplete
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameAPI\obj\Debug\GameAPI.dll
+C:\Users\Shmulikipod\source\repos\EnglishCheckers\GameAPI\obj\Debug\GameAPI.pdb
