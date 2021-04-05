@@ -1,8 +1,17 @@
-# EnglishCheckers  
-////////////////////////////////////////////////////////  
+# EnglishCheckers   
 To play the game go to: EnglishCheckers\GUI\bin\Debug  
 Then download: GameAPI.dll, GameLogic.dll, GUI.exe  
 Open GUI.exe to start the game.  
+
+
+![](Images/SelectedPiece.png)
+
+![](Images/Chat.png)
+
+![](Images/Menu.png)
+
+
+![](Images/Gameplay.png)
 
 ////////////////////////////////////////////////////////  
 Code:  
